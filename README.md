@@ -34,14 +34,16 @@ Synthetic datasets representing:
    - Predictive modeling for at-risk participants  
 
 ## Key Files
-- `app.R` – Main Shiny application  
-- `data/` – Synthetic datasets (privacy-compliant)  
+- `Carolina Youth Coalition Interactive Dashboard.R` – Main Shiny application
+- `Carolina Youth Coalition ETL Pipelines` - ETL process code
+- `Carolina Youth Coalition Synthetic Data` - Synthetic data process code 
+- `datasets/` – Synthetic datasets (privacy-compliant)  
 - `README.md` – Project documentation & live link  
 
 ## Technical Stack
 - **Data Processing**: R (tidyverse, dplyr, lubridate)  
 - **Visualization**: ggplot2, plotly, Shiny, shinydashboard, DT  
-- **ETL & Integration**: SQL, R pipelines  
+- **ETL & Integration**: R pipelines  
 - **QA**: Automated validation checks  
 
 ## Results & Impact
