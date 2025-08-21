@@ -1,0 +1,2 @@
+run_id,execution_date,execution_time_minutes,total_participants_processed,datasets_integrated,overall_quality_score,quality_meets_benchmark,anomalies_detected,files_created
+ETL_20250821_085014,2025-08-21,0.25,1057,5,100,TRUE,5,6

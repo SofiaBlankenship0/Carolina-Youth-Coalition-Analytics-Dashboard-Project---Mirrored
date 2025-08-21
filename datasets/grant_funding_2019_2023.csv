@@ -1,0 +1,16 @@
+grant_id,funding_source,award_year,grant_amount,focus_area,participants_served
+GRANT001,Federal TRIO,2023,145000,Career Readiness,215
+GRANT002,NC Education Lottery,2022,95000,Leadership Development,247
+GRANT003,United Way,2023,45000,Career Readiness,248
+GRANT004,Wells Fargo Foundation,2021,35000,Career Readiness,167
+GRANT005,Foundation For The Carolinas,2023,55000,Leadership Development,243
+GRANT006,Duke Energy Foundation,2019,25000,Test Prep,152
+GRANT007,Bank of America,2019,85000,Test Prep,180
+GRANT008,Federal GEAR UP,2023,125000,Leadership Development,230
+GRANT009,NC Dept of Public Instruction,2021,65000,College Access,179
+GRANT010,Charlotte Mecklenburg Foundation,2022,40000,Academic Support,176
+GRANT011,Private Donor - Anonymous,2021,15000,Academic Support,228
+GRANT012,Corporate Sponsor A,2019,20000,College Access,169
+GRANT013,Corporate Sponsor B,2021,30000,Leadership Development,211
+GRANT014,State Academic Enhancement,2020,75000,Academic Support,238
+GRANT015,Federal Title I Supplement,2023,95000,Test Prep,177

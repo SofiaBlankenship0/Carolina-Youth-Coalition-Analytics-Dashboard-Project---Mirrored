@@ -1,0 +1,208 @@
+participant_id,cohort_year,enrollment_date,age_at_enrollment,grade_level,race_ethnicity,gender,high_school,title_1_school,family_income_range,household_size,first_generation_college,program_track,transportation_barrier,childcare_needs
+CYC2022001,2022,2022-09-06,17,12th,Native American,Male,Vance High School,Yes,"$25,000-$39,999",2,Yes,College Prep,Yes,N/A
+CYC2022002,2022,2022-09-23,16,10th,Asian,Male,Independence High School,No,"Under $25,000",4,Yes,Career Readiness,Yes,No
+CYC2022003,2022,2022-08-17,18,12th,Hispanic/Latino,Male,Providence High School,No,"$60,000-$79,999",3,Yes,Career Readiness,No,No
+CYC2022004,2022,2022-10-07,17,11th,Black or African American,Male,Garinger High School,No,"$40,000-$59,999",4,No,Career Readiness,No,No
+CYC2022005,2022,2022-10-03,18,12th,Hispanic/Latino,Female,Garinger High School,Yes,"$60,000-$79,999",4,Yes,College Prep,Yes,No
+CYC2022006,2022,2022-09-14,17,12th,Native American,Female,Harding University High School,Yes,"$25,000-$39,999",2,Yes,College Prep,No,No
+CYC2022007,2022,2022-08-22,16,10th,Black or African American,Male,Garinger High School,Yes,"Under $25,000",5,Yes,College Prep,Yes,No
+CYC2022008,2022,2022-09-24,18,12th,Black or African American,Female,Rocky River High School,No,"$60,000-$79,999",1,Yes,Career Readiness,No,No
+CYC2022009,2022,2022-10-07,16,11th,Hispanic/Latino,Female,West Charlotte High School,No,"$25,000-$39,999",4,No,College Prep,Yes,N/A
+CYC2022010,2022,2022-10-06,17,11th,Hispanic/Latino,Male,Butler High School,Yes,"$40,000-$59,999",3,Yes,College Prep,No,No
+CYC2022011,2022,2022-09-15,16,11th,White,Male,Garinger High School,No,"$80,000-$99,999",4,Yes,College Prep,No,N/A
+CYC2022012,2022,2022-08-19,17,12th,Asian,Female,Harding University High School,Yes,"Under $25,000",1,Yes,Intensive Support,Yes,No
+CYC2022013,2022,2022-09-18,14,9th,Black or African American,Male,Garinger High School,No,"Under $25,000",4,No,Dual Track,No,No
+CYC2022014,2022,2022-09-17,16,11th,Hispanic/Latino,Female,Charlotte Catholic High School,No,"$25,000-$39,999",5,Unknown,College Prep,Yes,N/A
+CYC2022015,2022,2022-08-27,18,12th,Hispanic/Latino,Female,Hopewell High School,Yes,"Under $25,000",3,Yes,Dual Track,Yes,N/A
+CYC2022016,2022,2022-09-01,15,9th,Black or African American,Female,Rocky River High School,Yes,"$25,000-$39,999",2,No,Career Readiness,Yes,Yes
+CYC2022017,2022,2022-09-17,16,11th,Black or African American,Male,Charlotte Catholic High School,Yes,"Under $25,000",3,No,Career Readiness,No,No
+CYC2022018,2022,2022-08-23,18,12th,Hispanic/Latino,Male,Mallard Creek High School,No,"$40,000-$59,999",6,No,College Prep,No,No
+CYC2022019,2022,2022-10-11,15,10th,Black or African American,Female,Providence High School,Yes,"$100,000+",5,Yes,Career Readiness,No,No
+CYC2022020,2022,2022-09-27,18,12th,White,Male,Mallard Creek High School,Yes,"$40,000-$59,999",3,Yes,Career Readiness,No,No
+CYC2022021,2022,2022-10-12,15,10th,Black or African American,Female,Rocky River High School,Yes,"$25,000-$39,999",5,No,Intensive Support,No,No
+CYC2022022,2022,2022-09-28,16,10th,White,Male,Butler High School,Yes,"$25,000-$39,999",3,Yes,Career Readiness,No,No
+CYC2022023,2022,2022-09-10,16,11th,White,Female,Charlotte Catholic High School,No,"$25,000-$39,999",3,Yes,Dual Track,No,No
+CYC2022024,2022,2022-10-06,16,11th,Multiracial,Male,Julius Chambers High School,Yes,"Under $25,000",2,Yes,Dual Track,Yes,Yes
+CYC2022025,2022,2022-09-05,17,12th,White,Male,Harding University High School,Yes,"$40,000-$59,999",2,No,College Prep,Yes,N/A
+CYC2022026,2022,2022-08-17,17,12th,Native American,Female,Julius Chambers High School,No,"$60,000-$79,999",6,Yes,Dual Track,Yes,No
+CYC2022027,2022,2022-09-09,16,11th,Hispanic/Latino,Male,Garinger High School,Yes,"Under $25,000",5,No,Career Readiness,Yes,No
+CYC2022028,2022,2022-10-15,16,11th,Hispanic/Latino,Male,Mallard Creek High School,Yes,"$40,000-$59,999",4,No,Dual Track,No,No
+CYC2022029,2022,2022-09-17,15,9th,Asian,Female,Olympic High School,Yes,"$60,000-$79,999",3,No,Dual Track,No,No
+CYC2022030,2022,2022-10-15,17,12th,Native American,Female,Mallard Creek High School,No,"$60,000-$79,999",4,No,Dual Track,No,No
+CYC2022031,2022,2022-09-07,17,12th,Black or African American,Male,Hopewell High School,Yes,"Under $25,000",3,Yes,Intensive Support,No,No
+CYC2022032,2022,2022-10-08,16,10th,Hispanic/Latino,Female,Mallard Creek High School,Yes,"$25,000-$39,999",3,Yes,College Prep,No,No
+CYC2022033,2022,2022-09-02,18,12th,Black or African American,Female,Charlotte Catholic High School,No,"Under $25,000",2,No,College Prep,No,No
+CYC2022034,2022,2022-08-22,17,11th,Black or African American,Female,West Charlotte High School,Yes,"$25,000-$39,999",4,Yes,Career Readiness,Yes,N/A
+CYC2022035,2022,2022-10-03,16,11th,Asian,Male,North Mecklenburg High School,Yes,"Under $25,000",6,No,College Prep,No,Yes
+CYC2022036,2022,2022-10-06,17,12th,White,Female,East Mecklenburg High School,Yes,"$40,000-$59,999",4,Yes,Intensive Support,No,N/A
+CYC2022037,2022,2022-09-19,17,11th,Black or African American,Male,South Mecklenburg High School,Yes,"$25,000-$39,999",4,Yes,Career Readiness,No,N/A
+CYC2022038,2022,2022-09-30,16,11th,Hispanic/Latino,Female,Independence High School,No,"$40,000-$59,999",3,No,Dual Track,Yes,Yes
+CYC2022039,2022,2022-09-27,17,11th,Multiracial,Female,Providence High School,Yes,"$40,000-$59,999",3,Yes,Intensive Support,No,No
+CYC2022040,2022,2022-10-13,17,11th,Black or African American,Male,South Mecklenburg High School,Yes,"$25,000-$39,999",7,Yes,Dual Track,No,No
+CYC2022041,2022,2022-10-12,15,10th,White,Female,East Mecklenburg High School,No,"Under $25,000",4,Yes,Dual Track,No,No
+CYC2022042,2022,2022-10-14,15,9th,Asian,Male,Olympic High School,Yes,"$40,000-$59,999",5,Yes,College Prep,Yes,No
+CYC2022043,2022,2022-10-13,16,10th,Black or African American,Female,Rocky River High School,Yes,"$25,000-$39,999",3,Yes,Career Readiness,No,Yes
+CYC2022044,2022,2022-10-09,17,12th,Black or African American,Male,Ardrey Kell High School,Yes,"$25,000-$39,999",8,Yes,College Prep,No,Yes
+CYC2022045,2022,2022-09-25,15,10th,Black or African American,Female,Garinger High School,No,"$25,000-$39,999",4,Yes,Intensive Support,Yes,No
+CYC2022046,2022,2022-10-01,18,12th,Black or African American,Female,Providence High School,Yes,"$60,000-$79,999",4,Yes,Dual Track,Yes,N/A
+CYC2022047,2022,2022-09-16,17,11th,Black or African American,Female,Olympic High School,Yes,"$25,000-$39,999",3,Yes,College Prep,Yes,No
+CYC2022048,2022,2022-08-15,18,12th,White,Male,Julius Chambers High School,Yes,"$25,000-$39,999",3,Yes,Dual Track,No,No
+CYC2022049,2022,2022-09-02,16,11th,Black or African American,Female,North Mecklenburg High School,No,"$40,000-$59,999",6,Yes,Dual Track,No,N/A
+CYC2022050,2022,2022-08-16,18,12th,Black or African American,Female,South Mecklenburg High School,Yes,"$25,000-$39,999",5,Yes,Career Readiness,No,Yes
+CYC2022051,2022,2022-09-23,16,11th,Asian,Male,North Mecklenburg High School,Yes,"$60,000-$79,999",5,Yes,College Prep,No,No
+CYC2022052,2022,2022-08-20,17,12th,White,Female,Charlotte Catholic High School,Yes,"$25,000-$39,999",7,Yes,College Prep,Yes,No
+CYC2022053,2022,2022-10-01,16,11th,Hispanic/Latino,Non-binary,Julius Chambers High School,Yes,"$60,000-$79,999",4,No,College Prep,No,No
+CYC2022054,2022,2022-09-15,17,11th,Black or African American,Male,Mallard Creek High School,Yes,"Under $25,000",3,Yes,Intensive Support,No,No
+CYC2022055,2022,2022-09-12,17,12th,Black or African American,Female,Myers Park High School,Yes,"Under $25,000",4,Yes,Dual Track,Yes,No
+CYC2022056,2022,2022-09-06,15,10th,Asian,Female,West Charlotte High School,No,"$40,000-$59,999",3,No,College Prep,No,No
+CYC2022057,2022,2022-08-27,17,12th,White,Female,West Charlotte High School,Yes,"$100,000+",3,Yes,College Prep,No,N/A
+CYC2022058,2022,2022-09-27,17,12th,Hispanic/Latino,Female,North Mecklenburg High School,Yes,"$80,000-$99,999",5,Yes,Dual Track,No,No
+CYC2022059,2022,2022-08-23,16,11th,Black or African American,Male,Olympic High School,Yes,"Under $25,000",1,Yes,College Prep,No,No
+CYC2022060,2022,2022-09-03,18,12th,Black or African American,Male,Hopewell High School,No,"$40,000-$59,999",5,Yes,College Prep,No,N/A
+CYC2022061,2022,2022-09-19,18,12th,White,Male,Rocky River High School,No,"$60,000-$79,999",7,Yes,Career Readiness,No,N/A
+CYC2022062,2022,2022-09-24,17,12th,Black or African American,Female,West Charlotte High School,Yes,"Under $25,000",5,Yes,Career Readiness,No,N/A
+CYC2022063,2022,2022-10-15,15,10th,Asian,Male,Rocky River High School,No,"$80,000-$99,999",4,Yes,Intensive Support,No,No
+CYC2022064,2022,2022-08-26,14,9th,White,Female,West Charlotte High School,No,"$40,000-$59,999",5,Yes,Career Readiness,No,No
+CYC2022065,2022,2022-09-29,18,12th,Black or African American,Female,North Mecklenburg High School,No,"Under $25,000",4,Yes,Career Readiness,No,No
+CYC2022066,2022,2022-09-27,16,11th,Black or African American,Female,Vance High School,Yes,"$100,000+",5,Yes,College Prep,No,No
+CYC2022067,2022,2022-09-16,16,11th,Hispanic/Latino,Male,Hopewell High School,Yes,"Under $25,000",3,Yes,Career Readiness,Yes,No
+CYC2022068,2022,2022-10-08,16,10th,White,Male,Harding University High School,No,"$80,000-$99,999",6,Yes,College Prep,Yes,No
+CYC2022069,2022,2022-10-08,17,11th,White,Female,Harding University High School,Yes,"$80,000-$99,999",3,Yes,College Prep,No,No
+CYC2022070,2022,2022-10-08,16,11th,Black or African American,Male,Butler High School,No,"Under $25,000",3,Yes,Dual Track,No,Yes
+CYC2022071,2022,2022-09-18,15,9th,Hispanic/Latino,Male,Garinger High School,No,"Under $25,000",8,No,Career Readiness,Yes,No
+CYC2022072,2022,2022-09-11,15,9th,White,Female,Julius Chambers High School,No,"$40,000-$59,999",2,Yes,College Prep,No,No
+CYC2022073,2022,2022-10-08,17,12th,White,Male,Butler High School,Yes,"$40,000-$59,999",2,Yes,Dual Track,No,No
+CYC2022074,2022,2022-09-08,16,10th,Asian,Female,South Mecklenburg High School,Yes,"Under $25,000",6,Yes,Intensive Support,Yes,No
+CYC2022075,2022,2022-10-12,16,11th,Multiracial,Male,Julius Chambers High School,No,"Under $25,000",4,Yes,Career Readiness,No,No
+CYC2022076,2022,2022-09-29,16,11th,Hispanic/Latino,Male,Mallard Creek High School,Yes,"Under $25,000",3,No,Career Readiness,Yes,No
+CYC2022077,2022,2022-08-20,18,12th,White,Female,Myers Park High School,Yes,"$40,000-$59,999",5,Yes,College Prep,No,N/A
+CYC2022078,2022,2022-10-14,14,9th,Hispanic/Latino,Female,North Mecklenburg High School,No,"Under $25,000",4,Yes,Dual Track,No,No
+CYC2022079,2022,2022-08-21,15,10th,Hispanic/Latino,Female,Charlotte Catholic High School,Yes,"$40,000-$59,999",6,Yes,College Prep,No,No
+CYC2022080,2022,2022-09-12,16,11th,Hispanic/Latino,Female,Mallard Creek High School,No,"Under $25,000",2,Yes,College Prep,Yes,No
+CYC2022081,2022,2022-09-01,18,12th,Hispanic/Latino,Female,South Mecklenburg High School,No,"$60,000-$79,999",3,Yes,Intensive Support,No,Yes
+CYC2022082,2022,2022-09-08,18,12th,Asian,Male,West Charlotte High School,No,"$40,000-$59,999",2,Yes,Career Readiness,Yes,No
+CYC2022083,2022,2022-09-01,16,11th,Black or African American,Female,Harding University High School,Yes,"$25,000-$39,999",2,No,Career Readiness,Yes,No
+CYC2022084,2022,2022-09-05,16,11th,Hispanic/Latino,Male,Myers Park High School,No,"Under $25,000",3,Yes,Dual Track,Yes,N/A
+CYC2022085,2022,2022-10-08,18,12th,Black or African American,Female,Harding University High School,Yes,"Under $25,000",3,No,Dual Track,No,No
+CYC2022086,2022,2022-08-22,15,9th,Native American,Female,Harding University High School,Yes,"$60,000-$79,999",5,Yes,College Prep,Yes,Yes
+CYC2022087,2022,2022-08-25,16,11th,Hispanic/Latino,Female,Garinger High School,Yes,"$60,000-$79,999",5,No,Dual Track,Yes,N/A
+CYC2022088,2022,2022-10-11,15,9th,White,Female,Mallard Creek High School,Yes,"$40,000-$59,999",1,Yes,College Prep,No,No
+CYC2022089,2022,2022-09-27,17,12th,Black or African American,Female,Ardrey Kell High School,No,"$100,000+",3,Yes,College Prep,No,No
+CYC2022090,2022,2022-09-04,16,11th,Black or African American,Male,Vance High School,Yes,"Under $25,000",5,Yes,College Prep,Yes,No
+CYC2022091,2022,2022-09-26,17,12th,Black or African American,Male,West Charlotte High School,No,"$40,000-$59,999",3,Yes,College Prep,No,No
+CYC2022092,2022,2022-10-11,16,11th,Black or African American,Female,West Charlotte High School,Yes,"Under $25,000",1,No,Career Readiness,No,No
+CYC2022093,2022,2022-08-23,16,11th,White,Female,Ardrey Kell High School,No,"$25,000-$39,999",3,Yes,Career Readiness,Yes,N/A
+CYC2022094,2022,2022-09-12,15,10th,Hispanic/Latino,Male,West Charlotte High School,Yes,"Under $25,000",2,Yes,College Prep,Yes,No
+CYC2022095,2022,2022-08-17,18,12th,White,Female,Garinger High School,Yes,"$25,000-$39,999",2,No,College Prep,Yes,No
+CYC2022096,2022,2022-10-07,16,11th,White,Female,Harding University High School,Yes,"$25,000-$39,999",2,No,College Prep,No,No
+CYC2022097,2022,2022-09-13,17,12th,Black or African American,Male,Rocky River High School,No,"$40,000-$59,999",3,No,Dual Track,No,Yes
+CYC2022098,2022,2022-08-24,15,10th,Black or African American,Male,Butler High School,No,"$60,000-$79,999",4,Yes,College Prep,No,No
+CYC2022099,2022,2022-09-30,15,9th,Black or African American,Male,Charlotte Catholic High School,Yes,"$40,000-$59,999",2,Yes,Intensive Support,No,No
+CYC2022100,2022,2022-09-21,18,12th,Black or African American,Female,Garinger High School,No,"$25,000-$39,999",5,No,College Prep,No,No
+CYC2022101,2022,2022-08-24,16,11th,Hispanic/Latino,Female,North Mecklenburg High School,Yes,"$25,000-$39,999",3,Yes,Career Readiness,No,N/A
+CYC2022102,2022,2022-08-25,18,12th,Hispanic/Latino,Male,North Mecklenburg High School,No,"$100,000+",6,Yes,Career Readiness,No,No
+CYC2022103,2022,2022-10-12,17,11th,White,Male,Butler High School,Yes,"$40,000-$59,999",2,Yes,College Prep,Yes,No
+CYC2022104,2022,2022-08-30,15,10th,Hispanic/Latino,Male,Harding University High School,Yes,"$60,000-$79,999",2,Yes,College Prep,No,N/A
+CYC2022105,2022,2022-10-12,14,9th,Hispanic/Latino,Male,Olympic High School,No,"Under $25,000",2,Yes,College Prep,Yes,Yes
+CYC2022106,2022,2022-09-20,16,11th,Hispanic/Latino,Male,Rocky River High School,Yes,"$60,000-$79,999",5,Yes,College Prep,No,Yes
+CYC2022107,2022,2022-09-29,14,9th,Hispanic/Latino,Female,Olympic High School,Yes,"Under $25,000",5,Yes,College Prep,No,Yes
+CYC2022108,2022,2022-09-25,14,9th,White,Male,Rocky River High School,No,"$25,000-$39,999",2,Yes,College Prep,No,N/A
+CYC2022109,2022,2022-09-11,15,10th,Black or African American,Male,Mallard Creek High School,Yes,"Under $25,000",5,Yes,College Prep,No,N/A
+CYC2022110,2022,2022-09-24,18,12th,Black or African American,Female,Rocky River High School,Yes,"$25,000-$39,999",5,Yes,Career Readiness,Yes,Yes
+CYC2022111,2022,2022-10-14,17,11th,Black or African American,Female,Harding University High School,Yes,"$40,000-$59,999",3,Yes,College Prep,No,Yes
+CYC2022112,2022,2022-08-18,14,9th,Multiracial,Male,Mallard Creek High School,Yes,"$60,000-$79,999",2,Yes,Career Readiness,No,No
+CYC2022113,2022,2022-08-20,16,11th,Hispanic/Latino,Male,Harding University High School,Yes,"Under $25,000",6,No,College Prep,No,No
+CYC2022114,2022,2022-08-22,15,10th,White,Female,Independence High School,Yes,"$25,000-$39,999",2,Yes,Dual Track,No,No
+CYC2022115,2022,2022-10-07,15,9th,Black or African American,Male,Independence High School,Yes,"$40,000-$59,999",4,Yes,Dual Track,No,No
+CYC2022116,2022,2022-08-20,18,12th,White,Female,East Mecklenburg High School,Yes,"$60,000-$79,999",5,Yes,College Prep,Yes,Yes
+CYC2022117,2022,2022-09-19,15,9th,Hispanic/Latino,Female,Rocky River High School,No,"$40,000-$59,999",4,Yes,College Prep,Yes,N/A
+CYC2022118,2022,2022-09-23,14,9th,Black or African American,Female,Independence High School,Yes,"$25,000-$39,999",7,No,Career Readiness,No,Yes
+CYC2022119,2022,2022-09-12,16,11th,White,Male,Myers Park High School,Yes,"Under $25,000",4,No,College Prep,No,No
+CYC2022120,2022,2022-08-25,16,11th,White,Male,South Mecklenburg High School,Yes,"$60,000-$79,999",3,Yes,Career Readiness,Yes,Yes
+CYC2022121,2022,2022-09-23,17,12th,Hispanic/Latino,Female,South Mecklenburg High School,No,"$40,000-$59,999",4,Yes,Dual Track,Yes,No
+CYC2022122,2022,2022-10-15,17,12th,White,Female,South Mecklenburg High School,No,"Under $25,000",2,Yes,Career Readiness,Yes,No
+CYC2022123,2022,2022-09-29,16,10th,White,Male,Vance High School,Yes,"$40,000-$59,999",1,Yes,College Prep,No,No
+CYC2022124,2022,2022-09-15,17,12th,Black or African American,Female,Garinger High School,No,"Under $25,000",4,Yes,College Prep,No,N/A
+CYC2022125,2022,2022-09-30,16,11th,Multiracial,Male,Vance High School,Yes,"$60,000-$79,999",5,Yes,Dual Track,Yes,No
+CYC2022126,2022,2022-08-31,17,11th,Hispanic/Latino,Male,Olympic High School,Yes,"Under $25,000",2,Yes,Career Readiness,No,No
+CYC2022127,2022,2022-09-21,18,12th,Hispanic/Latino,Male,Hopewell High School,No,"$25,000-$39,999",3,Yes,Career Readiness,Yes,No
+CYC2022128,2022,2022-10-14,16,10th,Asian,Female,West Charlotte High School,Yes,"$25,000-$39,999",2,Yes,College Prep,No,Yes
+CYC2022129,2022,2022-08-26,15,10th,Asian,Male,Harding University High School,Yes,"Under $25,000",3,Yes,Intensive Support,Yes,No
+CYC2022130,2022,2022-09-11,15,10th,Hispanic/Latino,Male,Charlotte Catholic High School,Yes,"Under $25,000",3,Yes,College Prep,No,No
+CYC2022131,2022,2022-09-20,16,11th,Black or African American,Male,Harding University High School,No,"Under $25,000",2,No,College Prep,No,No
+CYC2022132,2022,2022-10-12,16,11th,Hispanic/Latino,Female,Garinger High School,No,"$40,000-$59,999",6,Yes,Intensive Support,Yes,No
+CYC2022133,2022,2022-09-13,15,10th,Black or African American,Female,Harding University High School,Yes,"$60,000-$79,999",5,Yes,Intensive Support,No,No
+CYC2022134,2022,2022-10-15,16,11th,Hispanic/Latino,Female,Independence High School,Yes,"$25,000-$39,999",1,No,Intensive Support,Yes,No
+CYC2022135,2022,2022-10-06,17,11th,Black or African American,Female,South Mecklenburg High School,No,"Under $25,000",2,No,Career Readiness,No,No
+CYC2022136,2022,2022-08-20,18,12th,White,Female,East Mecklenburg High School,Yes,"$25,000-$39,999",8,Yes,College Prep,No,N/A
+CYC2022137,2022,2022-09-23,18,12th,Black or African American,Male,Olympic High School,Yes,"$25,000-$39,999",5,Yes,College Prep,No,No
+CYC2022138,2022,2022-09-30,17,12th,Black or African American,Female,Julius Chambers High School,Yes,"$100,000+",5,Yes,College Prep,No,No
+CYC2022139,2022,2022-09-01,15,9th,Multiracial,Male,Myers Park High School,Yes,"Under $25,000",6,Yes,Dual Track,No,Yes
+CYC2022140,2022,2022-08-21,18,12th,Asian,Male,Mallard Creek High School,No,"Under $25,000",3,Yes,Dual Track,No,No
+CYC2022141,2022,2022-09-24,15,10th,Black or African American,Female,Charlotte Catholic High School,Yes,"$60,000-$79,999",3,Yes,Career Readiness,No,Yes
+CYC2022142,2022,2022-09-05,18,12th,Black or African American,Female,Olympic High School,Yes,"Under $25,000",4,No,College Prep,Yes,No
+CYC2022143,2022,2022-08-29,17,12th,Black or African American,Non-binary,Julius Chambers High School,Yes,"$25,000-$39,999",1,Yes,Career Readiness,No,No
+CYC2022144,2022,2022-10-15,15,9th,Black or African American,Male,Hopewell High School,No,"Under $25,000",1,Yes,Career Readiness,No,No
+CYC2022145,2022,2022-09-22,18,12th,White,Female,Butler High School,Yes,"Under $25,000",3,Yes,College Prep,Yes,Yes
+CYC2022146,2022,2022-09-02,18,12th,Black or African American,Male,West Charlotte High School,Yes,"$60,000-$79,999",5,No,Career Readiness,Yes,No
+CYC2022147,2022,2022-09-01,18,12th,Multiracial,Female,Ardrey Kell High School,Yes,"$25,000-$39,999",2,Yes,College Prep,Yes,No
+CYC2022148,2022,2022-09-26,18,12th,Black or African American,Female,Hopewell High School,No,"$25,000-$39,999",5,Yes,Career Readiness,No,No
+CYC2022149,2022,2022-10-01,18,12th,White,Female,Harding University High School,Yes,"Under $25,000",4,Yes,College Prep,No,N/A
+CYC2022150,2022,2022-10-05,17,11th,Black or African American,Male,South Mecklenburg High School,Yes,"$40,000-$59,999",3,Yes,Career Readiness,No,N/A
+CYC2022151,2022,2022-08-20,18,12th,Black or African American,Female,Garinger High School,Yes,"$80,000-$99,999",2,No,Career Readiness,Yes,No
+CYC2022152,2022,2022-08-18,15,10th,White,Female,Ardrey Kell High School,No,"$60,000-$79,999",5,No,College Prep,No,No
+CYC2022153,2022,2022-10-11,16,11th,White,Female,Harding University High School,Yes,"$25,000-$39,999",3,Yes,Career Readiness,No,No
+CYC2022154,2022,2022-10-04,16,10th,Black or African American,Female,Mallard Creek High School,Yes,"Under $25,000",4,No,College Prep,No,No
+CYC2022155,2022,2022-10-06,18,12th,Hispanic/Latino,Female,South Mecklenburg High School,Yes,"Under $25,000",5,Yes,Career Readiness,No,Yes
+CYC2022156,2022,2022-09-01,14,9th,Black or African American,Female,Charlotte Catholic High School,Yes,"Under $25,000",6,No,College Prep,No,No
+CYC2022157,2022,2022-08-27,17,12th,Black or African American,Female,South Mecklenburg High School,Yes,"Under $25,000",3,Yes,Dual Track,Yes,Yes
+CYC2022158,2022,2022-09-10,15,9th,White,Female,Ardrey Kell High School,Yes,"$100,000+",4,Yes,College Prep,Yes,No
+CYC2022159,2022,2022-08-29,18,12th,Black or African American,Male,Vance High School,No,"$25,000-$39,999",8,Yes,College Prep,No,No
+CYC2022160,2022,2022-08-31,16,11th,White,Female,Butler High School,No,"$40,000-$59,999",4,Yes,College Prep,No,No
+CYC2022161,2022,2022-08-19,17,11th,Black or African American,Male,Hopewell High School,Yes,"$25,000-$39,999",1,No,Career Readiness,Yes,No
+CYC2022162,2022,2022-10-15,17,11th,White,Male,Rocky River High School,Yes,"Under $25,000",5,Yes,Dual Track,Yes,No
+CYC2022163,2022,2022-10-04,18,12th,Black or African American,Female,Butler High School,Yes,"Under $25,000",2,Yes,College Prep,Yes,No
+CYC2022164,2022,2022-09-02,16,11th,Hispanic/Latino,Female,Garinger High School,Yes,"$100,000+",4,Yes,Career Readiness,Yes,No
+CYC2022165,2022,2022-08-17,16,11th,Hispanic/Latino,Female,Providence High School,Yes,"$40,000-$59,999",3,No,Career Readiness,No,N/A
+CYC2022166,2022,2022-08-22,16,10th,Hispanic/Latino,Female,Vance High School,Yes,"$60,000-$79,999",1,Yes,College Prep,No,No
+CYC2022167,2022,2022-08-29,16,11th,Black or African American,Male,East Mecklenburg High School,Yes,"Under $25,000",5,No,College Prep,No,No
+CYC2022168,2022,2022-08-26,18,12th,Hispanic/Latino,Female,Providence High School,Yes,"$40,000-$59,999",5,Yes,College Prep,Yes,No
+CYC2022169,2022,2022-08-23,17,12th,Hispanic/Latino,Female,Myers Park High School,No,"$60,000-$79,999",5,Yes,Dual Track,No,No
+CYC2022170,2022,2022-08-15,16,11th,Black or African American,Male,North Mecklenburg High School,No,"$60,000-$79,999",6,Yes,College Prep,No,N/A
+CYC2022171,2022,2022-08-21,18,12th,Hispanic/Latino,Female,Rocky River High School,Yes,"$60,000-$79,999",3,Yes,Dual Track,No,Yes
+CYC2022172,2022,2022-09-24,17,11th,Hispanic/Latino,Female,Harding University High School,Yes,"Under $25,000",1,No,Dual Track,Yes,No
+CYC2022173,2022,2022-08-31,16,11th,Black or African American,Male,Providence High School,No,"$25,000-$39,999",4,No,College Prep,No,N/A
+CYC2022174,2022,2022-09-14,17,12th,Black or African American,Male,Myers Park High School,Yes,"Under $25,000",3,Yes,Career Readiness,No,N/A
+CYC2022175,2022,2022-10-10,16,10th,White,Male,Garinger High School,No,"$25,000-$39,999",6,No,College Prep,No,Yes
+CYC2022176,2022,2022-09-05,18,12th,Black or African American,Female,Ardrey Kell High School,Yes,"$40,000-$59,999",3,Yes,Dual Track,Yes,No
+CYC2022177,2022,2022-09-11,18,12th,Black or African American,Male,Myers Park High School,No,"$25,000-$39,999",3,Yes,College Prep,No,No
+CYC2022178,2022,2022-10-04,18,12th,Black or African American,Male,Hopewell High School,Yes,"$25,000-$39,999",3,Yes,Intensive Support,No,No
+CYC2022179,2022,2022-08-23,17,12th,Black or African American,Female,Hopewell High School,Yes,"Under $25,000",6,No,Career Readiness,No,No
+CYC2022180,2022,2022-10-09,18,12th,Black or African American,Female,Myers Park High School,Yes,"$25,000-$39,999",3,Yes,College Prep,No,N/A
+CYC2022181,2022,2022-10-03,15,9th,White,Female,Myers Park High School,Yes,"Under $25,000",3,Yes,Intensive Support,No,No
+CYC2022182,2022,2022-09-27,14,9th,Hispanic/Latino,Female,Charlotte Catholic High School,No,"$25,000-$39,999",3,Yes,College Prep,No,No
+CYC2022183,2022,2022-08-24,15,9th,White,Male,Rocky River High School,Yes,"Under $25,000",2,No,College Prep,No,No
+CYC2022184,2022,2022-08-23,17,12th,Black or African American,Female,Providence High School,Yes,"Under $25,000",4,Yes,College Prep,No,No
+CYC2022185,2022,2022-09-20,16,11th,White,Female,Rocky River High School,Yes,"$40,000-$59,999",5,Yes,Dual Track,No,No
+CYC2022186,2022,2022-09-09,17,11th,Black or African American,Female,Harding University High School,Yes,"$60,000-$79,999",4,Yes,College Prep,No,No
+CYC2022187,2022,2022-10-04,18,12th,Black or African American,Male,North Mecklenburg High School,Yes,"Under $25,000",7,Yes,Dual Track,No,No
+CYC2022188,2022,2022-09-08,18,12th,Multiracial,Male,South Mecklenburg High School,Yes,"$25,000-$39,999",2,No,Career Readiness,No,Yes
+CYC2022189,2022,2022-10-10,16,11th,Hispanic/Latino,Female,Harding University High School,No,"$25,000-$39,999",3,No,College Prep,No,No
+CYC2022190,2022,2022-10-15,18,12th,Hispanic/Latino,Non-binary,Butler High School,Yes,"Under $25,000",2,Yes,College Prep,No,No
+CYC2022191,2022,2022-08-15,15,9th,Black or African American,Female,Rocky River High School,No,"$25,000-$39,999",2,Yes,Career Readiness,No,No
+CYC2022192,2022,2022-08-23,18,12th,White,Female,Ardrey Kell High School,Yes,"$40,000-$59,999",4,Yes,Dual Track,No,Yes
+CYC2022193,2022,2022-09-20,17,11th,Hispanic/Latino,Male,North Mecklenburg High School,No,"Under $25,000",5,Yes,College Prep,Yes,Yes
+CYC2022194,2022,2022-08-22,17,12th,Black or African American,Male,Julius Chambers High School,No,"Under $25,000",4,Yes,Career Readiness,No,No
+CYC2022195,2022,2022-09-22,16,11th,Hispanic/Latino,Female,Harding University High School,Yes,"$40,000-$59,999",3,No,Dual Track,No,No
+CYC2022196,2022,2022-10-12,18,12th,White,Female,Garinger High School,No,"$40,000-$59,999",4,Yes,College Prep,No,No
+CYC2022197,2022,2022-08-29,16,11th,Hispanic/Latino,Male,Myers Park High School,Yes,"$60,000-$79,999",5,No,Career Readiness,Yes,No
+CYC2022198,2022,2022-09-11,17,12th,Black or African American,Female,Garinger High School,Yes,"$40,000-$59,999",6,Yes,Intensive Support,No,No
+CYC2022199,2022,2022-08-26,18,12th,Black or African American,Female,Vance High School,No,"$25,000-$39,999",4,Yes,College Prep,No,No
+CYC2022200,2022,2022-09-26,16,11th,Black or African American,Female,Julius Chambers High School,No,"Under $25,000",5,No,Dual Track,Yes,No
+CYC2022201,2022,2022-10-13,17,12th,White,Female,Butler High School,No,"$60,000-$79,999",5,No,Dual Track,No,No
+CYC2022202,2022,2022-10-14,16,11th,Black or African American,Female,Mallard Creek High School,No,"$100,000+",5,Yes,Dual Track,No,No
+CYC2022203,2022,2022-08-26,15,10th,Black or African American,Female,Vance High School,Yes,"$80,000-$99,999",4,No,Intensive Support,No,Yes
+CYC2022204,2022,2022-09-02,17,12th,Black or African American,Male,Providence High School,Yes,"Under $25,000",3,Yes,College Prep,No,Yes
+CYC2022205,2022,2022-09-20,16,10th,Black or African American,Male,East Mecklenburg High School,Yes,"Under $25,000",4,Yes,College Prep,No,No
+CYC2022206,2022,2022-09-24,17,11th,Hispanic/Latino,Female,Butler High School,Yes,"$25,000-$39,999",2,No,College Prep,No,No
+CYC2022207,2022,2022-08-26,16,11th,Black or African American,Female,Rocky River High School,Yes,"$25,000-$39,999",5,No,Dual Track,No,No

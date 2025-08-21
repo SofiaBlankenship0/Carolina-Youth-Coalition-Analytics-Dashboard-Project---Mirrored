@@ -1,0 +1,219 @@
+participant_id,cohort_year,enrollment_date,age_at_enrollment,grade_level,race_ethnicity,gender,high_school,title_1_school,family_income_range,household_size,first_generation_college,program_track,transportation_barrier,childcare_needs
+CYC2023001,2023,2023-09-16,16,11th,Black or African American,Female,Ardrey Kell High School,No,"$40,000-$59,999",5,No,College Prep,No,N/A
+CYC2023002,2023,2023-09-22,17,11th,Hispanic/Latino,Female,Garinger High School,Yes,"$40,000-$59,999",5,No,College Prep,No,No
+CYC2023003,2023,2023-09-27,18,12th,Black or African American,Female,Mallard Creek High School,No,"$40,000-$59,999",2,Yes,Career Readiness,Yes,No
+CYC2023004,2023,2023-09-12,17,11th,Hispanic/Latino,Female,Ardrey Kell High School,No,"$100,000+",3,Yes,Intensive Support,No,No
+CYC2023005,2023,2023-09-18,15,10th,Black or African American,Female,Mallard Creek High School,No,"$40,000-$59,999",3,Yes,College Prep,No,No
+CYC2023006,2023,2023-09-27,14,9th,Black or African American,Male,Hopewell High School,Yes,"Under $25,000",5,No,College Prep,No,Yes
+CYC2023007,2023,2023-10-06,18,12th,Black or African American,Male,East Mecklenburg High School,No,"$25,000-$39,999",4,No,Dual Track,No,No
+CYC2023008,2023,2023-09-30,17,12th,Hispanic/Latino,Female,Mallard Creek High School,No,"$25,000-$39,999",3,No,College Prep,Yes,No
+CYC2023009,2023,2023-09-04,16,11th,Multiracial,Male,Providence High School,Yes,"Under $25,000",6,Yes,Career Readiness,No,No
+CYC2023010,2023,2023-10-02,16,11th,Hispanic/Latino,Female,Ardrey Kell High School,No,"$25,000-$39,999",3,Yes,College Prep,Yes,Yes
+CYC2023011,2023,2023-09-15,15,9th,Other,Male,Independence High School,No,"Under $25,000",5,Yes,College Prep,No,N/A
+CYC2023012,2023,2023-09-07,17,11th,Black or African American,Female,Mallard Creek High School,Yes,"Under $25,000",1,Yes,Career Readiness,No,No
+CYC2023013,2023,2023-10-08,17,12th,Hispanic/Latino,Male,Providence High School,Yes,"$25,000-$39,999",4,No,College Prep,Yes,No
+CYC2023014,2023,2023-09-05,18,12th,Black or African American,Male,Charlotte Catholic High School,Yes,"$40,000-$59,999",3,No,Intensive Support,No,No
+CYC2023015,2023,2023-09-20,15,10th,White,Male,East Mecklenburg High School,Yes,"$60,000-$79,999",3,Yes,Intensive Support,No,No
+CYC2023016,2023,2023-09-23,17,12th,Black or African American,Male,Providence High School,Yes,"$60,000-$79,999",3,Yes,College Prep,No,N/A
+CYC2023017,2023,2023-09-22,18,12th,Hispanic/Latino,Male,Garinger High School,Yes,"$80,000-$99,999",2,Yes,College Prep,Yes,N/A
+CYC2023018,2023,2023-08-30,17,12th,Multiracial,Female,Ardrey Kell High School,Yes,"Under $25,000",6,Yes,College Prep,No,N/A
+CYC2023019,2023,2023-10-02,15,10th,Black or African American,Male,Mallard Creek High School,Yes,"$25,000-$39,999",5,Yes,College Prep,No,Yes
+CYC2023020,2023,2023-10-12,14,9th,Black or African American,Female,Ardrey Kell High School,Yes,"$40,000-$59,999",5,Unknown,College Prep,No,No
+CYC2023021,2023,2023-09-11,15,9th,Black or African American,Female,Ardrey Kell High School,No,"$40,000-$59,999",3,Yes,Career Readiness,No,No
+CYC2023022,2023,2023-09-04,16,10th,Black or African American,Male,Harding University High School,No,"Under $25,000",4,Yes,College Prep,No,Yes
+CYC2023023,2023,2023-08-24,14,9th,Hispanic/Latino,Male,Garinger High School,Yes,"$40,000-$59,999",3,No,Career Readiness,No,No
+CYC2023024,2023,2023-08-28,17,11th,Asian,Male,North Mecklenburg High School,Yes,"$40,000-$59,999",3,No,Intensive Support,Yes,N/A
+CYC2023025,2023,2023-09-01,17,12th,Black or African American,Female,Charlotte Catholic High School,Yes,"$40,000-$59,999",2,Yes,College Prep,Yes,Yes
+CYC2023026,2023,2023-08-18,16,11th,Hispanic/Latino,Female,Providence High School,Yes,"$40,000-$59,999",1,Yes,Career Readiness,No,No
+CYC2023027,2023,2023-10-02,18,12th,White,Female,Hopewell High School,No,"$60,000-$79,999",5,No,Dual Track,No,No
+CYC2023028,2023,2023-09-06,17,12th,Black or African American,Female,Julius Chambers High School,Yes,"$40,000-$59,999",1,No,College Prep,No,No
+CYC2023029,2023,2023-09-04,17,11th,Black or African American,Male,Harding University High School,Yes,"Under $25,000",1,Yes,Dual Track,No,No
+CYC2023030,2023,2023-08-24,18,12th,Black or African American,Female,Providence High School,No,"Under $25,000",2,Yes,College Prep,No,N/A
+CYC2023031,2023,2023-09-27,18,12th,Black or African American,Male,East Mecklenburg High School,Yes,"Under $25,000",5,Yes,Intensive Support,Yes,N/A
+CYC2023032,2023,2023-08-21,16,10th,White,Female,Independence High School,Yes,"Under $25,000",6,Yes,Career Readiness,Yes,No
+CYC2023033,2023,2023-10-08,18,12th,White,Female,Providence High School,Yes,"$100,000+",2,Yes,College Prep,Yes,No
+CYC2023034,2023,2023-09-05,17,12th,Hispanic/Latino,Female,Olympic High School,No,"Under $25,000",6,No,College Prep,No,No
+CYC2023035,2023,2023-09-07,17,12th,Hispanic/Latino,Female,Hopewell High School,No,"$25,000-$39,999",5,No,Career Readiness,No,No
+CYC2023036,2023,2023-10-11,15,10th,Asian,Male,South Mecklenburg High School,Yes,"$100,000+",3,No,College Prep,No,No
+CYC2023037,2023,2023-09-27,17,11th,Black or African American,Male,Mallard Creek High School,No,"Under $25,000",1,Yes,Dual Track,No,N/A
+CYC2023038,2023,2023-10-01,16,11th,Black or African American,Male,Myers Park High School,No,"$60,000-$79,999",6,Yes,College Prep,Yes,N/A
+CYC2023039,2023,2023-10-11,14,9th,Black or African American,Female,Olympic High School,Yes,"Under $25,000",7,Yes,College Prep,Yes,No
+CYC2023040,2023,2023-10-07,18,12th,Black or African American,Female,Independence High School,Yes,"Under $25,000",5,Yes,College Prep,Yes,N/A
+CYC2023041,2023,2023-10-08,18,12th,Black or African American,Male,West Charlotte High School,No,"$40,000-$59,999",4,Yes,Dual Track,Yes,No
+CYC2023042,2023,2023-09-19,16,11th,Black or African American,Female,Harding University High School,Yes,"Under $25,000",1,Yes,Dual Track,No,No
+CYC2023043,2023,2023-08-22,16,11th,Multiracial,Female,Rocky River High School,No,"$40,000-$59,999",5,Yes,College Prep,No,No
+CYC2023044,2023,2023-08-22,18,12th,Asian,Female,North Mecklenburg High School,Yes,"$80,000-$99,999",5,No,College Prep,Yes,No
+CYC2023045,2023,2023-09-29,16,11th,White,Female,Harding University High School,No,"$25,000-$39,999",5,Yes,Career Readiness,No,Yes
+CYC2023046,2023,2023-08-25,16,11th,Multiracial,Male,South Mecklenburg High School,Yes,"Under $25,000",1,Yes,Intensive Support,Yes,Yes
+CYC2023047,2023,2023-08-18,15,10th,White,Female,Providence High School,No,"Under $25,000",5,Yes,College Prep,No,Yes
+CYC2023048,2023,2023-09-15,16,11th,White,Female,Rocky River High School,No,"$25,000-$39,999",8,Yes,Dual Track,Yes,No
+CYC2023049,2023,2023-09-03,18,12th,Native American,Female,Harding University High School,Yes,"Under $25,000",1,Yes,College Prep,No,No
+CYC2023050,2023,2023-09-29,16,11th,Black or African American,Female,Charlotte Catholic High School,Yes,"Under $25,000",4,Yes,College Prep,No,No
+CYC2023051,2023,2023-09-17,18,12th,Black or African American,Female,Ardrey Kell High School,Yes,"$40,000-$59,999",4,Yes,Intensive Support,Yes,No
+CYC2023052,2023,2023-09-03,18,12th,Hispanic/Latino,Male,Independence High School,Yes,"$100,000+",3,Yes,College Prep,No,No
+CYC2023053,2023,2023-09-20,14,9th,Hispanic/Latino,Male,Julius Chambers High School,No,"$25,000-$39,999",2,Yes,Intensive Support,Yes,No
+CYC2023054,2023,2023-09-06,16,11th,Asian,Male,East Mecklenburg High School,No,"Under $25,000",1,Yes,College Prep,No,No
+CYC2023055,2023,2023-09-25,16,11th,Black or African American,Female,Vance High School,Yes,"$80,000-$99,999",2,Yes,Dual Track,No,Yes
+CYC2023056,2023,2023-09-13,18,12th,Hispanic/Latino,Male,Hopewell High School,Yes,"$25,000-$39,999",2,Yes,College Prep,No,No
+CYC2023057,2023,2023-10-09,16,11th,White,Male,Rocky River High School,No,"$25,000-$39,999",2,No,College Prep,No,No
+CYC2023058,2023,2023-09-27,15,10th,Black or African American,Female,Independence High School,No,"$40,000-$59,999",3,No,Dual Track,No,No
+CYC2023059,2023,2023-09-24,16,10th,White,Female,North Mecklenburg High School,Yes,"$60,000-$79,999",4,Yes,Dual Track,Yes,No
+CYC2023060,2023,2023-09-26,17,11th,Other,Female,Garinger High School,No,"Under $25,000",3,No,Dual Track,Yes,No
+CYC2023061,2023,2023-09-11,16,11th,Black or African American,Female,Butler High School,Yes,"Under $25,000",2,No,College Prep,No,Yes
+CYC2023062,2023,2023-09-21,15,10th,White,Female,South Mecklenburg High School,No,"Under $25,000",3,Unknown,Dual Track,No,Yes
+CYC2023063,2023,2023-09-09,18,12th,Hispanic/Latino,Female,Harding University High School,Yes,"$40,000-$59,999",2,No,Career Readiness,No,No
+CYC2023064,2023,2023-09-22,18,12th,Black or African American,Female,Ardrey Kell High School,No,"$40,000-$59,999",3,Yes,Dual Track,Yes,No
+CYC2023065,2023,2023-10-10,18,12th,Black or African American,Male,Garinger High School,No,"$60,000-$79,999",3,Yes,Dual Track,No,N/A
+CYC2023066,2023,2023-08-29,15,9th,White,Male,Julius Chambers High School,Yes,"$25,000-$39,999",4,Yes,College Prep,No,No
+CYC2023067,2023,2023-10-05,18,12th,Asian,Male,Charlotte Catholic High School,Yes,"$25,000-$39,999",1,Yes,Intensive Support,No,No
+CYC2023068,2023,2023-10-01,16,11th,Black or African American,Female,Rocky River High School,Yes,"$100,000+",3,Yes,College Prep,Yes,No
+CYC2023069,2023,2023-09-09,16,11th,Black or African American,Female,Charlotte Catholic High School,No,"$60,000-$79,999",3,No,Intensive Support,Yes,Yes
+CYC2023070,2023,2023-09-28,15,9th,Black or African American,Male,Harding University High School,No,"Under $25,000",4,No,Career Readiness,No,Yes
+CYC2023071,2023,2023-10-02,18,12th,Hispanic/Latino,Female,Charlotte Catholic High School,Yes,"$25,000-$39,999",3,No,College Prep,No,No
+CYC2023072,2023,2023-10-09,16,10th,Hispanic/Latino,Male,Rocky River High School,Yes,"$40,000-$59,999",3,No,Career Readiness,No,No
+CYC2023073,2023,2023-08-20,17,11th,Hispanic/Latino,Male,Olympic High School,Yes,"Under $25,000",3,No,College Prep,No,Yes
+CYC2023074,2023,2023-09-11,15,9th,Asian,Female,Ardrey Kell High School,No,"$40,000-$59,999",5,Yes,Intensive Support,No,No
+CYC2023075,2023,2023-08-27,16,11th,Multiracial,Male,North Mecklenburg High School,No,"Under $25,000",2,Yes,Dual Track,No,No
+CYC2023076,2023,2023-08-31,17,11th,Asian,Male,Garinger High School,Yes,"$40,000-$59,999",3,Yes,College Prep,No,No
+CYC2023077,2023,2023-08-22,17,12th,Black or African American,Female,Myers Park High School,Yes,"Under $25,000",7,Yes,College Prep,No,Yes
+CYC2023078,2023,2023-09-10,17,12th,White,Female,Butler High School,No,"Under $25,000",5,Yes,College Prep,Yes,N/A
+CYC2023079,2023,2023-09-09,17,12th,White,Male,East Mecklenburg High School,Yes,"$80,000-$99,999",3,Unknown,Dual Track,No,No
+CYC2023080,2023,2023-09-20,14,9th,Native American,Female,Providence High School,Yes,"$100,000+",2,Yes,College Prep,No,No
+CYC2023081,2023,2023-09-03,16,10th,Black or African American,Male,Julius Chambers High School,No,"$60,000-$79,999",3,No,Dual Track,No,Yes
+CYC2023082,2023,2023-09-15,17,12th,Black or African American,Female,Ardrey Kell High School,Yes,"$40,000-$59,999",4,Yes,Career Readiness,Yes,No
+CYC2023083,2023,2023-09-09,15,10th,White,Female,Harding University High School,No,"$25,000-$39,999",2,No,Dual Track,No,No
+CYC2023084,2023,2023-09-12,18,12th,Black or African American,Female,Ardrey Kell High School,Yes,"$80,000-$99,999",4,No,College Prep,Yes,No
+CYC2023085,2023,2023-10-07,16,10th,Hispanic/Latino,Male,East Mecklenburg High School,Yes,"Under $25,000",3,Yes,College Prep,No,No
+CYC2023086,2023,2023-09-13,15,9th,Hispanic/Latino,Female,Julius Chambers High School,Yes,"Under $25,000",5,Yes,Career Readiness,Yes,Yes
+CYC2023087,2023,2023-08-19,15,10th,Hispanic/Latino,Male,Vance High School,No,"$25,000-$39,999",2,No,Dual Track,No,No
+CYC2023088,2023,2023-09-16,16,11th,White,Female,West Charlotte High School,Yes,"Under $25,000",3,No,Dual Track,No,Yes
+CYC2023089,2023,2023-08-23,15,10th,Hispanic/Latino,Female,Butler High School,Yes,"$60,000-$79,999",5,Yes,Dual Track,Yes,No
+CYC2023090,2023,2023-09-24,16,10th,Hispanic/Latino,Male,Providence High School,Yes,"$40,000-$59,999",3,Yes,Dual Track,No,Yes
+CYC2023091,2023,2023-09-12,17,12th,Hispanic/Latino,Male,Hopewell High School,Yes,"$60,000-$79,999",4,Yes,College Prep,Yes,Yes
+CYC2023092,2023,2023-09-18,16,11th,Black or African American,Male,Olympic High School,Yes,"$60,000-$79,999",7,Yes,College Prep,No,N/A
+CYC2023093,2023,2023-10-06,17,12th,Black or African American,Female,Independence High School,Yes,"$60,000-$79,999",1,No,Career Readiness,No,N/A
+CYC2023094,2023,2023-10-11,16,10th,White,Female,Garinger High School,No,"$40,000-$59,999",3,Yes,College Prep,No,No
+CYC2023095,2023,2023-09-05,15,10th,Black or African American,Male,Providence High School,Yes,"$60,000-$79,999",4,Yes,Intensive Support,Yes,Yes
+CYC2023096,2023,2023-08-20,17,12th,Black or African American,Male,Butler High School,No,"Under $25,000",4,No,Dual Track,Yes,No
+CYC2023097,2023,2023-09-15,18,12th,White,Female,Vance High School,Yes,"$40,000-$59,999",6,Yes,Intensive Support,No,No
+CYC2023098,2023,2023-08-17,18,12th,Black or African American,Male,Mallard Creek High School,Yes,"Under $25,000",1,Yes,Career Readiness,No,No
+CYC2023099,2023,2023-08-22,18,12th,Black or African American,Female,East Mecklenburg High School,Yes,"$60,000-$79,999",5,Yes,College Prep,No,No
+CYC2023100,2023,2023-10-01,18,12th,Black or African American,Male,South Mecklenburg High School,Yes,"Under $25,000",1,Yes,College Prep,Yes,No
+CYC2023101,2023,2023-09-05,18,12th,Asian,Male,Mallard Creek High School,No,"Under $25,000",1,No,College Prep,No,No
+CYC2023102,2023,2023-10-11,16,11th,Asian,Male,Charlotte Catholic High School,Yes,"$60,000-$79,999",7,Yes,Dual Track,Yes,No
+CYC2023103,2023,2023-09-25,18,12th,Hispanic/Latino,Female,Ardrey Kell High School,No,"$25,000-$39,999",3,Yes,College Prep,Yes,No
+CYC2023104,2023,2023-08-30,17,11th,Hispanic/Latino,Female,Ardrey Kell High School,No,"Under $25,000",4,No,College Prep,No,No
+CYC2023105,2023,2023-09-25,16,11th,White,Female,Butler High School,Yes,"Under $25,000",4,Yes,College Prep,No,No
+CYC2023106,2023,2023-09-03,16,11th,Black or African American,Female,North Mecklenburg High School,Yes,"$25,000-$39,999",5,Yes,Intensive Support,No,Yes
+CYC2023107,2023,2023-09-16,17,12th,Black or African American,Female,Myers Park High School,Yes,"Under $25,000",3,Yes,Intensive Support,Yes,No
+CYC2023108,2023,2023-08-26,18,12th,Hispanic/Latino,Female,Vance High School,Yes,"Under $25,000",3,Yes,College Prep,No,No
+CYC2023109,2023,2023-10-11,18,12th,White,Female,Olympic High School,Yes,"$80,000-$99,999",6,No,Career Readiness,No,N/A
+CYC2023110,2023,2023-10-02,14,9th,Hispanic/Latino,Female,South Mecklenburg High School,Yes,"$40,000-$59,999",4,Yes,Intensive Support,No,No
+CYC2023111,2023,2023-09-15,16,11th,White,Female,Hopewell High School,Yes,"Under $25,000",3,Yes,College Prep,No,No
+CYC2023112,2023,2023-08-17,17,12th,Hispanic/Latino,Female,Charlotte Catholic High School,No,"$25,000-$39,999",2,Yes,College Prep,No,No
+CYC2023113,2023,2023-08-30,16,11th,White,Female,Mallard Creek High School,Yes,"Under $25,000",3,Yes,College Prep,Yes,No
+CYC2023114,2023,2023-09-27,15,9th,Black or African American,Male,Rocky River High School,Yes,"$60,000-$79,999",1,No,Intensive Support,No,No
+CYC2023115,2023,2023-09-01,15,10th,Multiracial,Female,Harding University High School,Yes,"Under $25,000",5,No,College Prep,Yes,No
+CYC2023116,2023,2023-10-07,18,12th,Black or African American,Male,Harding University High School,No,"Under $25,000",6,Yes,Intensive Support,No,No
+CYC2023117,2023,2023-09-30,16,11th,Hispanic/Latino,Male,South Mecklenburg High School,No,"$25,000-$39,999",5,Yes,College Prep,No,No
+CYC2023118,2023,2023-08-22,16,11th,Hispanic/Latino,Female,Independence High School,Yes,"$25,000-$39,999",5,Yes,Career Readiness,No,No
+CYC2023119,2023,2023-09-24,17,12th,Black or African American,Male,Providence High School,No,"Under $25,000",3,No,Intensive Support,No,No
+CYC2023120,2023,2023-09-23,18,12th,Black or African American,Female,Ardrey Kell High School,No,"$80,000-$99,999",3,Yes,Career Readiness,Yes,No
+CYC2023121,2023,2023-09-20,17,11th,Multiracial,Female,Charlotte Catholic High School,Yes,"$25,000-$39,999",7,Yes,College Prep,Yes,N/A
+CYC2023122,2023,2023-08-26,18,12th,White,Female,Hopewell High School,Yes,"$25,000-$39,999",2,Yes,College Prep,No,N/A
+CYC2023123,2023,2023-08-20,15,9th,Asian,Female,Garinger High School,No,"$40,000-$59,999",3,Yes,Career Readiness,Yes,No
+CYC2023124,2023,2023-10-14,15,10th,Black or African American,Male,Garinger High School,Yes,"Under $25,000",3,Yes,Career Readiness,Yes,No
+CYC2023125,2023,2023-09-17,18,12th,Hispanic/Latino,Female,Vance High School,Yes,"$25,000-$39,999",5,Yes,Career Readiness,No,No
+CYC2023126,2023,2023-09-11,15,10th,Black or African American,Female,Hopewell High School,Yes,"$100,000+",5,Yes,Dual Track,No,Yes
+CYC2023127,2023,2023-09-27,17,12th,White,Male,Vance High School,Yes,"$25,000-$39,999",1,No,College Prep,No,Yes
+CYC2023128,2023,2023-10-06,15,9th,White,Non-binary,Julius Chambers High School,Yes,"$25,000-$39,999",1,Yes,Dual Track,No,No
+CYC2023129,2023,2023-09-09,18,12th,Black or African American,Female,Vance High School,No,"Under $25,000",3,Yes,Career Readiness,Yes,No
+CYC2023130,2023,2023-09-03,17,12th,Black or African American,Female,Vance High School,Yes,"Under $25,000",3,Yes,College Prep,No,No
+CYC2023131,2023,2023-08-31,16,11th,Black or African American,Male,Julius Chambers High School,Yes,"$25,000-$39,999",7,Yes,Intensive Support,Yes,No
+CYC2023132,2023,2023-10-07,18,12th,Black or African American,Female,West Charlotte High School,No,"$40,000-$59,999",3,Yes,Intensive Support,No,No
+CYC2023133,2023,2023-09-15,16,11th,Black or African American,Female,North Mecklenburg High School,No,"$25,000-$39,999",2,No,College Prep,No,Yes
+CYC2023134,2023,2023-10-05,17,12th,Hispanic/Latino,Female,Rocky River High School,Yes,"$60,000-$79,999",2,Yes,College Prep,No,No
+CYC2023135,2023,2023-10-06,18,12th,Black or African American,Female,Charlotte Catholic High School,Yes,"$40,000-$59,999",4,Yes,College Prep,Yes,No
+CYC2023136,2023,2023-08-16,15,10th,Black or African American,Female,Butler High School,Yes,"$80,000-$99,999",2,Yes,Dual Track,No,Yes
+CYC2023137,2023,2023-08-16,17,12th,White,Female,Garinger High School,Yes,"$25,000-$39,999",6,Yes,Intensive Support,No,Yes
+CYC2023138,2023,2023-08-17,18,12th,Hispanic/Latino,Female,Julius Chambers High School,Yes,"$25,000-$39,999",3,No,Career Readiness,No,No
+CYC2023139,2023,2023-09-01,15,10th,Black or African American,Male,Myers Park High School,Yes,"Under $25,000",2,No,College Prep,No,No
+CYC2023140,2023,2023-10-06,17,12th,Black or African American,Female,Providence High School,No,"Under $25,000",8,Yes,College Prep,Yes,No
+CYC2023141,2023,2023-09-01,17,12th,Black or African American,Male,Hopewell High School,Yes,"$60,000-$79,999",4,Yes,Intensive Support,No,Yes
+CYC2023142,2023,2023-08-29,16,11th,Black or African American,Female,Mallard Creek High School,No,"$40,000-$59,999",4,Yes,Intensive Support,No,No
+CYC2023143,2023,2023-08-19,17,12th,Black or African American,Male,Harding University High School,Yes,"$80,000-$99,999",5,Yes,College Prep,No,Yes
+CYC2023144,2023,2023-08-18,17,11th,Black or African American,Female,Myers Park High School,Yes,"$25,000-$39,999",2,Yes,Career Readiness,No,N/A
+CYC2023145,2023,2023-08-25,16,11th,Black or African American,Female,Vance High School,Yes,"Under $25,000",2,Yes,Career Readiness,Yes,No
+CYC2023146,2023,2023-09-13,16,10th,Black or African American,Female,Independence High School,Yes,"$80,000-$99,999",4,Yes,Career Readiness,Yes,No
+CYC2023147,2023,2023-08-18,18,12th,Hispanic/Latino,Female,East Mecklenburg High School,Yes,"Under $25,000",5,Unknown,Career Readiness,Yes,No
+CYC2023148,2023,2023-10-07,18,12th,Hispanic/Latino,Male,Harding University High School,Yes,"$25,000-$39,999",3,Yes,Dual Track,Yes,No
+CYC2023149,2023,2023-08-22,17,11th,Black or African American,Female,Ardrey Kell High School,No,"Under $25,000",3,Yes,Career Readiness,No,Yes
+CYC2023150,2023,2023-09-19,17,12th,Black or African American,Male,Rocky River High School,Yes,"$25,000-$39,999",1,Yes,College Prep,No,No
+CYC2023151,2023,2023-08-25,16,11th,White,Male,Charlotte Catholic High School,No,"$60,000-$79,999",5,Yes,Career Readiness,No,No
+CYC2023152,2023,2023-08-24,17,11th,Black or African American,Male,Vance High School,Yes,"Under $25,000",2,Yes,College Prep,Yes,No
+CYC2023153,2023,2023-09-26,18,12th,Black or African American,Female,North Mecklenburg High School,Yes,"$25,000-$39,999",4,No,Dual Track,Yes,No
+CYC2023154,2023,2023-09-28,16,10th,Black or African American,Female,Ardrey Kell High School,Yes,"$60,000-$79,999",2,Yes,College Prep,No,No
+CYC2023155,2023,2023-09-21,16,11th,Black or African American,Female,Myers Park High School,No,"$25,000-$39,999",4,Yes,College Prep,Yes,No
+CYC2023156,2023,2023-09-09,17,12th,Black or African American,Male,Independence High School,No,"$25,000-$39,999",2,Yes,Dual Track,No,N/A
+CYC2023157,2023,2023-09-28,17,12th,White,Male,Ardrey Kell High School,Yes,"$25,000-$39,999",2,Yes,Dual Track,No,No
+CYC2023158,2023,2023-08-27,16,11th,Black or African American,Male,Olympic High School,Yes,"$40,000-$59,999",5,Yes,Career Readiness,Yes,Yes
+CYC2023159,2023,2023-09-07,15,9th,Multiracial,Female,Garinger High School,Yes,"$25,000-$39,999",4,Yes,Career Readiness,No,No
+CYC2023160,2023,2023-09-10,18,12th,Black or African American,Female,Rocky River High School,No,"$25,000-$39,999",5,Yes,Dual Track,No,No
+CYC2023161,2023,2023-09-29,15,10th,Black or African American,Female,Ardrey Kell High School,Yes,"$25,000-$39,999",3,Yes,Career Readiness,No,Yes
+CYC2023162,2023,2023-09-14,15,10th,Asian,Female,Vance High School,No,"Under $25,000",4,No,Career Readiness,Yes,No
+CYC2023163,2023,2023-08-28,17,11th,Hispanic/Latino,Male,Ardrey Kell High School,No,"$25,000-$39,999",5,Yes,College Prep,No,No
+CYC2023164,2023,2023-09-16,18,12th,Hispanic/Latino,Female,East Mecklenburg High School,Yes,"Under $25,000",5,Yes,College Prep,No,No
+CYC2023165,2023,2023-08-28,17,12th,Black or African American,Female,Butler High School,Yes,"$25,000-$39,999",5,No,College Prep,No,No
+CYC2023166,2023,2023-09-21,18,12th,Asian,Male,Butler High School,No,"$100,000+",2,Yes,College Prep,Yes,No
+CYC2023167,2023,2023-09-27,17,11th,Asian,Female,Mallard Creek High School,Yes,"Under $25,000",3,Yes,College Prep,Yes,No
+CYC2023168,2023,2023-08-19,14,9th,Black or African American,Female,Garinger High School,Yes,"Under $25,000",2,Yes,Dual Track,Yes,N/A
+CYC2023169,2023,2023-10-04,18,12th,Other,Female,Vance High School,No,"$80,000-$99,999",4,No,Dual Track,No,Yes
+CYC2023170,2023,2023-08-21,18,12th,Asian,Male,Independence High School,No,"$25,000-$39,999",4,Yes,College Prep,No,No
+CYC2023171,2023,2023-09-20,16,11th,Black or African American,Male,Mallard Creek High School,No,"$25,000-$39,999",5,Yes,College Prep,Yes,No
+CYC2023172,2023,2023-08-24,18,12th,Black or African American,Female,Mallard Creek High School,Yes,"$100,000+",5,Yes,Dual Track,Yes,No
+CYC2023173,2023,2023-10-08,15,9th,Asian,Male,South Mecklenburg High School,Yes,"$25,000-$39,999",3,Yes,College Prep,Yes,N/A
+CYC2023174,2023,2023-08-31,17,12th,Asian,Male,Vance High School,No,"Under $25,000",4,No,College Prep,Yes,No
+CYC2023175,2023,2023-09-17,17,11th,White,Male,Mallard Creek High School,Yes,"Under $25,000",5,Yes,Career Readiness,No,No
+CYC2023176,2023,2023-10-12,17,11th,Native American,Male,North Mecklenburg High School,Yes,"$80,000-$99,999",3,Yes,College Prep,Yes,No
+CYC2023177,2023,2023-10-06,17,11th,Black or African American,Female,South Mecklenburg High School,Yes,"Under $25,000",4,Yes,Dual Track,Yes,No
+CYC2023178,2023,2023-09-01,18,12th,Hispanic/Latino,Male,Vance High School,Yes,"Under $25,000",5,Yes,College Prep,No,No
+CYC2023179,2023,2023-08-27,16,11th,Native American,Female,Garinger High School,Yes,"Under $25,000",4,Yes,College Prep,Yes,N/A
+CYC2023180,2023,2023-09-16,17,11th,Hispanic/Latino,Female,Charlotte Catholic High School,No,"Under $25,000",1,No,College Prep,No,No
+CYC2023181,2023,2023-09-15,18,12th,Asian,Female,Butler High School,Yes,"Under $25,000",4,No,College Prep,No,No
+CYC2023182,2023,2023-08-21,18,12th,Black or African American,Female,North Mecklenburg High School,Yes,"$80,000-$99,999",4,No,Career Readiness,Yes,No
+CYC2023183,2023,2023-08-31,17,12th,Black or African American,Male,Butler High School,Yes,"Under $25,000",4,Yes,Dual Track,No,No
+CYC2023184,2023,2023-10-02,14,9th,Native American,Female,Julius Chambers High School,No,"$25,000-$39,999",4,No,Dual Track,Yes,No
+CYC2023185,2023,2023-10-10,17,12th,White,Female,Hopewell High School,Yes,"$25,000-$39,999",3,Yes,Dual Track,No,No
+CYC2023186,2023,2023-08-24,18,12th,White,Male,Providence High School,Yes,"Under $25,000",4,Yes,College Prep,Yes,No
+CYC2023187,2023,2023-09-11,16,11th,Asian,Male,Butler High School,Yes,"Under $25,000",3,No,Intensive Support,Yes,No
+CYC2023188,2023,2023-08-19,17,12th,White,Female,Hopewell High School,No,"$25,000-$39,999",1,Yes,Dual Track,No,Yes
+CYC2023189,2023,2023-09-10,17,11th,Hispanic/Latino,Female,Myers Park High School,No,"Under $25,000",1,Yes,College Prep,No,No
+CYC2023190,2023,2023-09-25,16,11th,White,Female,Olympic High School,No,"$25,000-$39,999",1,Yes,College Prep,Yes,Yes
+CYC2023191,2023,2023-10-08,16,11th,Black or African American,Male,Independence High School,No,"$80,000-$99,999",6,Yes,Dual Track,Yes,N/A
+CYC2023192,2023,2023-10-14,17,11th,White,Female,Hopewell High School,Yes,"$60,000-$79,999",3,Yes,College Prep,No,No
+CYC2023193,2023,2023-09-06,18,12th,Hispanic/Latino,Female,East Mecklenburg High School,Yes,"$60,000-$79,999",4,Yes,Dual Track,Yes,No
+CYC2023194,2023,2023-09-25,16,11th,Hispanic/Latino,Male,South Mecklenburg High School,Yes,"$40,000-$59,999",4,Yes,Intensive Support,No,No
+CYC2023195,2023,2023-09-11,15,10th,Hispanic/Latino,Male,West Charlotte High School,Yes,"$25,000-$39,999",4,Yes,College Prep,No,No
+CYC2023196,2023,2023-10-13,15,9th,Black or African American,Male,Vance High School,Yes,"$60,000-$79,999",4,Yes,Intensive Support,No,No
+CYC2023197,2023,2023-09-02,17,11th,Black or African American,Female,Garinger High School,Yes,"$40,000-$59,999",4,Yes,Career Readiness,No,No
+CYC2023198,2023,2023-08-29,15,10th,Hispanic/Latino,Female,Garinger High School,Yes,"$60,000-$79,999",2,Yes,College Prep,No,N/A
+CYC2023199,2023,2023-10-02,14,9th,Black or African American,Male,East Mecklenburg High School,Yes,"$60,000-$79,999",5,Yes,College Prep,No,Yes
+CYC2023200,2023,2023-10-10,18,12th,Hispanic/Latino,Male,Providence High School,No,"Under $25,000",3,Yes,College Prep,No,Yes
+CYC2023201,2023,2023-10-07,16,11th,Multiracial,Male,Olympic High School,Yes,"$60,000-$79,999",2,Yes,Dual Track,No,No
+CYC2023202,2023,2023-09-25,18,12th,Multiracial,Female,Harding University High School,Yes,"$40,000-$59,999",7,Yes,College Prep,No,No
+CYC2023203,2023,2023-10-02,17,12th,Black or African American,Female,Garinger High School,No,"$40,000-$59,999",6,Yes,Career Readiness,Yes,No
+CYC2023204,2023,2023-08-25,15,10th,White,Female,Butler High School,Yes,"Under $25,000",1,Yes,Dual Track,No,Yes
+CYC2023205,2023,2023-09-01,15,10th,Black or African American,Male,North Mecklenburg High School,No,"$40,000-$59,999",5,Yes,Dual Track,No,Yes
+CYC2023206,2023,2023-09-29,18,12th,Multiracial,Female,Myers Park High School,No,"$25,000-$39,999",6,No,Career Readiness,Yes,No
+CYC2023207,2023,2023-10-01,16,10th,Hispanic/Latino,Male,Butler High School,No,"Under $25,000",2,No,College Prep,Yes,Yes
+CYC2023208,2023,2023-09-01,15,9th,Asian,Female,North Mecklenburg High School,Yes,"$60,000-$79,999",1,No,Dual Track,Yes,N/A
+CYC2023209,2023,2023-09-02,15,9th,Hispanic/Latino,Male,Rocky River High School,Yes,"$40,000-$59,999",6,Yes,Career Readiness,No,No
+CYC2023210,2023,2023-10-10,18,12th,Hispanic/Latino,Male,Providence High School,Yes,"Under $25,000",7,Yes,Intensive Support,Yes,Yes
+CYC2023211,2023,2023-08-25,18,12th,Black or African American,Female,Butler High School,No,"Under $25,000",3,Yes,College Prep,No,Yes
+CYC2023212,2023,2023-10-04,17,12th,Black or African American,Female,Myers Park High School,Yes,"Under $25,000",5,Yes,Dual Track,No,No
+CYC2023213,2023,2023-10-05,17,11th,Black or African American,Female,Myers Park High School,Yes,"Under $25,000",1,Yes,Career Readiness,Yes,N/A
+CYC2023214,2023,2023-10-08,18,12th,Hispanic/Latino,Female,Ardrey Kell High School,Yes,"$80,000-$99,999",8,No,College Prep,Yes,No
+CYC2023215,2023,2023-09-24,18,12th,Black or African American,Female,Ardrey Kell High School,No,"$25,000-$39,999",5,No,Career Readiness,No,No
+CYC2023216,2023,2023-08-21,16,11th,Multiracial,Male,Independence High School,No,"$25,000-$39,999",4,Unknown,Career Readiness,No,No
+CYC2023217,2023,2023-10-02,17,12th,Black or African American,Male,Mallard Creek High School,Yes,"$40,000-$59,999",3,Yes,College Prep,No,N/A
+CYC2023218,2023,2023-10-11,17,12th,Asian,Female,East Mecklenburg High School,Yes,"$40,000-$59,999",4,Yes,College Prep,No,No
