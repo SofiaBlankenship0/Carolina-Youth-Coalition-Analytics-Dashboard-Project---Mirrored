@@ -7,7 +7,9 @@
 # SETUP & CONFIGURATION
 # =============================================================================
 
-# Load required libraries
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+options(shiny.fullstacktrace = TRUE, shiny.sanitize.errors = FALSE)
+
 library(shiny)
 library(shinydashboard)
 library(DT)
@@ -39,11 +41,11 @@ load_dashboard_data <- function() {
   tryCatch({
     # Load main datasets
     participant_data <- read_csv(file.path(DASHBOARD_CONFIG$data_path, "participant_master_integrated.csv"), 
-                                show_col_types = FALSE)
+                                 show_col_types = FALSE)
     participation_data <- read_csv(file.path(DASHBOARD_CONFIG$data_path, "participation_summary.csv"), 
-                                  show_col_types = FALSE)
+                                   show_col_types = FALSE)
     cost_data <- read_csv(file.path(DASHBOARD_CONFIG$data_path, "cost_analysis_by_year.csv"), 
-                         show_col_types = FALSE)
+                          show_col_types = FALSE)
     
     return(list(
       participants = participant_data,
@@ -66,17 +68,17 @@ generate_sample_data <- function() {
     cohort_year = sample(2019:2023, n_participants, replace = TRUE),
     enrollment_date = as.Date("2019-01-01") + sample(0:1460, n_participants, replace = TRUE),
     race_ethnicity_std = sample(c("Black/African American", "Hispanic/Latino", "White", "Asian", "Other/Multiracial"), 
-                               n_participants, replace = TRUE, prob = c(0.4, 0.25, 0.2, 0.1, 0.05)),
+                                n_participants, replace = TRUE, prob = c(0.4, 0.25, 0.2, 0.1, 0.05)),
     income_level = sample(c("Low Income", "Middle Income", "Higher Income"), 
-                         n_participants, replace = TRUE, prob = c(0.6, 0.3, 0.1)),
+                          n_participants, replace = TRUE, prob = c(0.6, 0.3, 0.1)),
     completion_status = sample(c("Completed", "Did Not Complete"), 
-                              n_participants, replace = TRUE, prob = c(0.75, 0.25)),
+                               n_participants, replace = TRUE, prob = c(0.75, 0.25)),
     act_composite_pre = round(rnorm(n_participants, mean = 18, sd = 3)),
     act_composite_post = pmax(act_composite_pre + round(rnorm(n_participants, mean = 3, sd = 2)), 
-                             act_composite_pre),
+                              act_composite_pre),
     sat_total_pre = round(rnorm(n_participants, mean = 950, sd = 100)),
     sat_total_post = pmax(sat_total_pre + round(rnorm(n_participants, mean = 80, sd = 40)), 
-                         sat_total_pre),
+                          sat_total_pre),
     gpa_pre = pmax(pmin(rnorm(n_participants, mean = 2.8, sd = 0.5), 4.0), 1.0),
     gpa_post = pmax(pmin(gpa_pre + rnorm(n_participants, mean = 0.4, sd = 0.3), 4.0), gpa_pre),
     act_improvement = act_composite_post - act_composite_pre,
@@ -156,9 +158,9 @@ calculate_key_metrics <- function(data) {
     
     # ROI Calculations
     cost_per_completer = round(sum(costs$total_participants * costs$avg_program_cost, na.rm = TRUE) / 
-                              sum(participants$completion_status == "Completed", na.rm = TRUE)),
+                                 sum(participants$completion_status == "Completed", na.rm = TRUE)),
     cost_per_act_point = round(sum(costs$total_participants * costs$avg_program_cost, na.rm = TRUE) / 
-                              sum(participants$act_improvement, na.rm = TRUE))
+                                 sum(participants$act_improvement, na.rm = TRUE))
   )
   
   return(kpis)
@@ -206,7 +208,7 @@ ui <- dashboardPage(
     
     br(),
     actionButton("reset_filters", "Reset All Filters", 
-                class = "btn-warning", style = "margin-left: 15px;")
+                 class = "btn-warning", style = "margin-left: 15px;")
   ),
   
   # Body
@@ -225,169 +227,169 @@ ui <- dashboardPage(
     tabItems(
       # Program Overview Tab
       tabItem(tabName = "overview",
-        fluidRow(
-          # Key Performance Indicators
-          valueBoxOutput("total_participants_box", width = 3),
-          valueBoxOutput("completion_rate_box", width = 3),
-          valueBoxOutput("avg_attendance_box", width = 3),
-          valueBoxOutput("avg_cost_box", width = 3)
-        ),
-        
-        fluidRow(
-          box(
-            title = "Program Growth Over Time", status = "primary", solidHeader = TRUE,
-            width = 6, height = 400,
-            plotlyOutput("growth_chart", height = "340px")
-          ),
-          
-          box(
-            title = "Completion Rates by Cohort", status = "primary", solidHeader = TRUE,
-            width = 6, height = 400,
-            plotlyOutput("completion_chart", height = "340px")
-          )
-        ),
-        
-        fluidRow(
-          box(
-            title = "Demographics Overview", status = "info", solidHeader = TRUE,
-            width = 8, height = 400,
-            plotlyOutput("demographics_chart", height = "340px")
-          ),
-          
-          box(
-            title = "Quick Stats", status = "success", solidHeader = TRUE,
-            width = 4, height = 400,
-            tableOutput("quick_stats")
-          )
-        )
+              fluidRow(
+                # Key Performance Indicators
+                valueBoxOutput("total_participants_box", width = 3),
+                valueBoxOutput("completion_rate_box", width = 3),
+                valueBoxOutput("avg_attendance_box", width = 3),
+                valueBoxOutput("avg_cost_box", width = 3)
+              ),
+              
+              fluidRow(
+                box(
+                  title = "Program Growth Over Time", status = "primary", solidHeader = TRUE,
+                  width = 6, height = 400,
+                  plotlyOutput("growth_chart", height = "340px")
+                ),
+                
+                box(
+                  title = "Completion Rates by Cohort", status = "primary", solidHeader = TRUE,
+                  width = 6, height = 400,
+                  plotlyOutput("completion_chart", height = "340px")
+                )
+              ),
+              
+              fluidRow(
+                box(
+                  title = "Demographics Overview", status = "info", solidHeader = TRUE,
+                  width = 8, height = 400,
+                  plotlyOutput("demographics_chart", height = "340px")
+                ),
+                
+                box(
+                  title = "Quick Stats", status = "success", solidHeader = TRUE,
+                  width = 4, height = 400,
+                  tableOutput("quick_stats")
+                )
+              )
       ),
       
       # Student Outcomes Tab
       tabItem(tabName = "outcomes",
-        fluidRow(
-          valueBoxOutput("act_improvement_box", width = 3),
-          valueBoxOutput("sat_improvement_box", width = 3),
-          valueBoxOutput("gpa_improvement_box", width = 3),
-          valueBoxOutput("goal_achievement_box", width = 3)
-        ),
-        
-        fluidRow(
-          box(
-            title = "Academic Improvement Trends", status = "primary", solidHeader = TRUE,
-            width = 8, height = 500,
-            tabsetPanel(
-              tabPanel("ACT Scores", plotlyOutput("act_trends", height = "400px")),
-              tabPanel("SAT Scores", plotlyOutput("sat_trends", height = "400px")),
-              tabPanel("GPA Changes", plotlyOutput("gpa_trends", height = "400px"))
-            )
-          ),
-          
-          box(
-            title = "Goal Achievement Rates", status = "success", solidHeader = TRUE,
-            width = 4, height = 500,
-            plotlyOutput("goal_achievement_chart", height = "440px")
-          )
-        ),
-        
-        fluidRow(
-          box(
-            title = "Performance by Demographics", status = "warning", solidHeader = TRUE,
-            width = 12, height = 400,
-            plotlyOutput("performance_demographics", height = "340px")
-          )
-        )
+              fluidRow(
+                valueBoxOutput("act_improvement_box", width = 3),
+                valueBoxOutput("sat_improvement_box", width = 3),
+                valueBoxOutput("gpa_improvement_box", width = 3),
+                valueBoxOutput("goal_achievement_box", width = 3)
+              ),
+              
+              fluidRow(
+                box(
+                  title = "Academic Improvement Trends", status = "primary", solidHeader = TRUE,
+                  width = 8, height = 500,
+                  tabsetPanel(
+                    tabPanel("ACT Scores", plotlyOutput("act_trends", height = "400px")),
+                    tabPanel("SAT Scores", plotlyOutput("sat_trends", height = "400px")),
+                    tabPanel("GPA Changes", plotlyOutput("gpa_trends", height = "400px"))
+                  )
+                ),
+                
+                box(
+                  title = "Goal Achievement Rates", status = "success", solidHeader = TRUE,
+                  width = 4, height = 500,
+                  plotlyOutput("goal_achievement_chart", height = "440px")
+                )
+              ),
+              
+              fluidRow(
+                box(
+                  title = "Performance by Demographics", status = "warning", solidHeader = TRUE,
+                  width = 12, height = 400,
+                  plotlyOutput("performance_demographics", height = "340px")
+                )
+              )
       ),
       
       # Engagement Analysis Tab
       tabItem(tabName = "engagement",
-        fluidRow(
-          valueBoxOutput("high_engagement_box", width = 3),
-          valueBoxOutput("total_hours_box", width = 3),
-          valueBoxOutput("avg_sessions_box", width = 3),
-          valueBoxOutput("retention_rate_box", width = 3)
-        ),
-        
-        fluidRow(
-          box(
-            title = "Attendance Patterns", status = "primary", solidHeader = TRUE,
-            width = 8, height = 450,
-            plotlyOutput("attendance_patterns", height = "390px")
-          ),
-          
-          box(
-            title = "Engagement Distribution", status = "info", solidHeader = TRUE,
-            width = 4, height = 450,
-            plotlyOutput("engagement_distribution", height = "390px")
-          )
-        ),
-        
-        fluidRow(
-          box(
-            title = "Engagement Impact on Outcomes", status = "success", solidHeader = TRUE,
-            width = 12, height = 400,
-            plotlyOutput("engagement_outcomes", height = "340px")
-          )
-        )
+              fluidRow(
+                valueBoxOutput("high_engagement_box", width = 3),
+                valueBoxOutput("total_hours_box", width = 3),
+                valueBoxOutput("avg_sessions_box", width = 3),
+                valueBoxOutput("retention_rate_box", width = 3)
+              ),
+              
+              fluidRow(
+                box(
+                  title = "Attendance Patterns", status = "primary", solidHeader = TRUE,
+                  width = 8, height = 450,
+                  plotlyOutput("attendance_patterns", height = "390px")
+                ),
+                
+                box(
+                  title = "Engagement Distribution", status = "info", solidHeader = TRUE,
+                  width = 4, height = 450,
+                  plotlyOutput("engagement_distribution", height = "390px")
+                )
+              ),
+              
+              fluidRow(
+                box(
+                  title = "Engagement Impact on Outcomes", status = "success", solidHeader = TRUE,
+                  width = 12, height = 400,
+                  plotlyOutput("engagement_outcomes", height = "340px")
+                )
+              )
       ),
       
       # Financial Insights Tab
       tabItem(tabName = "financial",
-        fluidRow(
-          valueBoxOutput("total_investment_box", width = 3),
-          valueBoxOutput("cost_per_participant_box", width = 3),
-          valueBoxOutput("cost_per_completer_box", width = 3),
-          valueBoxOutput("roi_metric_box", width = 3)
-        ),
-        
-        fluidRow(
-          box(
-            title = "Program Costs Over Time", status = "primary", solidHeader = TRUE,
-            width = 8, height = 450,
-            plotlyOutput("cost_trends", height = "390px")
-          ),
-          
-          box(
-            title = "Cost Breakdown", status = "warning", solidHeader = TRUE,
-            width = 4, height = 450,
-            plotlyOutput("cost_breakdown", height = "390px")
-          )
-        ),
-        
-        fluidRow(
-          box(
-            title = "Return on Investment Analysis", status = "success", solidHeader = TRUE,
-            width = 12, height = 400,
-            plotlyOutput("roi_analysis", height = "340px")
-          )
-        )
+              fluidRow(
+                valueBoxOutput("total_investment_box", width = 3),
+                valueBoxOutput("cost_per_participant_box", width = 3),
+                valueBoxOutput("cost_per_completer_box", width = 3),
+                valueBoxOutput("roi_metric_box", width = 3)
+              ),
+              
+              fluidRow(
+                box(
+                  title = "Program Costs Over Time", status = "primary", solidHeader = TRUE,
+                  width = 8, height = 450,
+                  plotlyOutput("cost_trends", height = "390px")
+                ),
+                
+                box(
+                  title = "Cost Breakdown", status = "warning", solidHeader = TRUE,
+                  width = 4, height = 450,
+                  plotlyOutput("cost_breakdown", height = "390px")
+                )
+              ),
+              
+              fluidRow(
+                box(
+                  title = "Return on Investment Analysis", status = "success", solidHeader = TRUE,
+                  width = 12, height = 400,
+                  plotlyOutput("roi_analysis", height = "340px")
+                )
+              )
       ),
       
       # Data Explorer Tab
       tabItem(tabName = "explorer",
-        fluidRow(
-          box(
-            title = "Participant Data Explorer", status = "primary", solidHeader = TRUE,
-            width = 12,
-            DTOutput("participant_table")
-          )
-        ),
-        
-        fluidRow(
-          box(
-            title = "Export Data", status = "info", solidHeader = TRUE,
-            width = 4,
-            downloadButton("download_data", "Download Filtered Data", 
-                          class = "btn-primary btn-lg btn-block"),
-            br(), br(),
-            p("Download the currently filtered dataset as a CSV file for further analysis.")
-          ),
-          
-          box(
-            title = "Data Summary", status = "success", solidHeader = TRUE,
-            width = 8,
-            verbatimTextOutput("data_summary")
-          )
-        )
+              fluidRow(
+                box(
+                  title = "Participant Data Explorer", status = "primary", solidHeader = TRUE,
+                  width = 12,
+                  DTOutput("participant_table")
+                )
+              ),
+              
+              fluidRow(
+                box(
+                  title = "Export Data", status = "info", solidHeader = TRUE,
+                  width = 4,
+                  downloadButton("download_data", "Download Filtered Data", 
+                                 class = "btn-primary btn-lg btn-block"),
+                  br(), br(),
+                  p("Download the currently filtered dataset as a CSV file for further analysis.")
+                ),
+                
+                box(
+                  title = "Data Summary", status = "success", solidHeader = TRUE,
+                  width = 8,
+                  verbatimTextOutput("data_summary")
+                )
+              )
       )
     )
   )
@@ -410,20 +412,20 @@ server <- function(input, output, session) {
     
     # Update cohort filter
     cohort_choices <- c("All Years" = "all", 
-                       setNames(sort(unique(data$participants$cohort_year)), 
-                               sort(unique(data$participants$cohort_year))))
+                        setNames(sort(unique(data$participants$cohort_year)), 
+                                 sort(unique(data$participants$cohort_year))))
     updateSelectInput(session, "cohort_filter", choices = cohort_choices)
     
     # Update demographic filter
     demo_choices <- c("All Groups" = "all",
-                     setNames(unique(data$participants$race_ethnicity_std),
-                             unique(data$participants$race_ethnicity_std)))
+                      setNames(unique(data$participants$race_ethnicity_std),
+                               unique(data$participants$race_ethnicity_std)))
     updateSelectInput(session, "demographic_filter", choices = demo_choices)
     
     # Update income filter
     income_choices <- c("All Levels" = "all",
-                       setNames(unique(data$participants$income_level),
-                               unique(data$participants$income_level)))
+                        setNames(unique(data$participants$income_level),
+                                 unique(data$participants$income_level)))
     updateSelectInput(session, "income_filter", choices = income_choices)
   })
   
@@ -679,7 +681,7 @@ server <- function(input, output, session) {
       mutate(percentage = n / sum(n) * 100)
     
     p <- ggplot(demo_data, aes(x = reorder(race_ethnicity_std, n), y = n, 
-                              text = paste0(race_ethnicity_std, ": ", n, " (", round(percentage, 1), "%)"))) +
+                               text = paste0(race_ethnicity_std, ": ", n, " (", round(percentage, 1), "%)"))) +
       geom_col(fill = DASHBOARD_CONFIG$theme_color, alpha = 0.8) +
       coord_flip() +
       labs(title = "", x = "", y = "Number of Participants") +
@@ -707,7 +709,7 @@ server <- function(input, output, session) {
       select(participant_id, cohort_year, act_composite_pre, act_composite_post) %>%
       filter(!is.na(act_composite_pre), !is.na(act_composite_post)) %>%
       tidyr::pivot_longer(cols = c(act_composite_pre, act_composite_post),
-                         names_to = "test_period", values_to = "score") %>%
+                          names_to = "test_period", values_to = "score") %>%
       mutate(test_period = ifelse(test_period == "act_composite_pre", "Pre", "Post"))
     
     p <- ggplot(act_data, aes(x = test_period, y = score, group = participant_id)) +
@@ -731,7 +733,7 @@ server <- function(input, output, session) {
       select(participant_id, cohort_year, sat_total_pre, sat_total_post) %>%
       filter(!is.na(sat_total_pre), !is.na(sat_total_post)) %>%
       tidyr::pivot_longer(cols = c(sat_total_pre, sat_total_post),
-                         names_to = "test_period", values_to = "score") %>%
+                          names_to = "test_period", values_to = "score") %>%
       mutate(test_period = ifelse(test_period == "sat_total_pre", "Pre", "Post"))
     
     p <- ggplot(sat_data, aes(x = test_period, y = score, group = participant_id)) +
@@ -755,7 +757,7 @@ server <- function(input, output, session) {
       select(participant_id, cohort_year, gpa_pre, gpa_post) %>%
       filter(!is.na(gpa_pre), !is.na(gpa_post)) %>%
       tidyr::pivot_longer(cols = c(gpa_pre, gpa_post),
-                         names_to = "test_period", values_to = "gpa") %>%
+                          names_to = "test_period", values_to = "gpa") %>%
       mutate(test_period = ifelse(test_period == "gpa_pre", "Pre", "Post"))
     
     p <- ggplot(gpa_data, aes(x = test_period, y = gpa, group = participant_id)) +
@@ -805,7 +807,7 @@ server <- function(input, output, session) {
       ) %>%
       filter(n >= 5) %>%  # Only show groups with sufficient data
       tidyr::pivot_longer(cols = starts_with("avg_"),
-                         names_to = "metric", values_to = "improvement") %>%
+                          names_to = "metric", values_to = "improvement") %>%
       mutate(
         metric = case_when(
           metric == "avg_act_improvement" ~ "ACT Improvement",
@@ -842,7 +844,7 @@ server <- function(input, output, session) {
       count(attendance_bin) %>%
       mutate(
         attendance_bin = factor(attendance_bin, 
-                               levels = c("Below 60%", "60-69%", "70-79%", "80-89%", "90-100%"))
+                                levels = c("Below 60%", "60-69%", "70-79%", "80-89%", "90-100%"))
       )
     
     p <- ggplot(attendance_data, aes(x = attendance_bin, y = n)) +
@@ -869,12 +871,12 @@ server <- function(input, output, session) {
                 "Minimal Engagement" = DASHBOARD_CONFIG$accent_color)
     
     p <- plot_ly(engagement_data, 
-                labels = ~engagement_level, 
-                values = ~n,
-                type = 'pie',
-                textinfo = 'label+percent',
-                marker = list(colors = colors[engagement_data$engagement_level],
-                             line = list(color = '#FFFFFF', width = 1))) %>%
+                 labels = ~engagement_level, 
+                 values = ~n,
+                 type = 'pie',
+                 textinfo = 'label+percent',
+                 marker = list(colors = colors[engagement_data$engagement_level],
+                               line = list(color = '#FFFFFF', width = 1))) %>%
       layout(showlegend = FALSE)
     
     p
@@ -961,12 +963,12 @@ server <- function(input, output, session) {
     colors <- c("#2E86AB", "#A23B72", "#F18F01", "#36C9DD")
     
     p <- plot_ly(cost_breakdown_data,
-                labels = ~Category,
-                values = ~Amount,
-                type = 'pie',
-                textinfo = 'label+percent',
-                marker = list(colors = colors,
-                             line = list(color = '#FFFFFF', width = 1))) %>%
+                 labels = ~Category,
+                 values = ~Amount,
+                 type = 'pie',
+                 textinfo = 'label+percent',
+                 marker = list(colors = colors,
+                               line = list(color = '#FFFFFF', width = 1))) %>%
       layout(showlegend = FALSE)
     
     p
@@ -1092,7 +1094,6 @@ server <- function(input, output, session) {
 # RUN APPLICATION
 # =============================================================================
 
-# Create the Shiny app object
 shinyApp(ui = ui, server = server)
 
 # =============================================================================
@@ -1128,8 +1129,6 @@ shinyApp(ui = ui, server = server)
 #Automated insights and trend detection
 #Export functionality for further analysis
 
-cat("\nCAROLINA YOUTH COALITION DASHBOARD READY\n")
-cat("====================================================\n")
-cat("Save as 'app.R' and run with: shiny::runApp()\n")
-cat("Features 20+ KPIs across 4 comprehensive dashboards\n")
-cat("Perfect for showcasing data visualization and business impact\n")
+# ---- Run App ----
+app <- shinyApp(ui = ui, server = server)
+app
