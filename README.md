@@ -8,10 +8,8 @@ Due to FERPA and privacy regulations governing youth data, I've created a portfo
 This project demonstrates automated ETL processes and real-time dashboard development for youth services organizations. Built to showcase data infrastructure capabilities needed to support evidence-based decision making in non-profit program management.
 
 **Key Achievements:**
-- Automated **R and SQL-based ETL pipelines** to integrate five disparate programmatic datasets, eliminating **30+ hours/month** of manual processing and enabling real-time analysis
-- Built **tidyverse-driven dashboards and visualizations** in Power BI to track 20+ program KPIs, improving decision-making speed by **40%** for leadership
-- Applied data profiling, anomaly detection, and normalization methods to maintain a **97% accuracy benchmark**, ensuring high-quality outputs for federal reporting
-- Collaborated in agile sprints with project managers and analysts to refine methodologies, peer-review code, and implement **best practices for error reduction**
+- Automated **R-based ETL pipelines** to integrate five disparate programmatic datasets, eliminating **30+ hours/month** of manual processing and enabling real-time analysis
+- Built **tidyverse-driven dashboards and visualizations** in R to track 20+ program KPIs, improving decision-making speed by **40%** for leadership
 
 ## Data Sources
 **Synthetic datasets representing:**
@@ -28,7 +26,7 @@ This project demonstrates automated ETL processes and real-time dashboard develo
    - Real-time data validation and quality checks
 
 2. **Analytics & Visualization**
-   - Power BI dashboard development for executive reporting
+   - Dashboard development for executive reporting
    - Statistical analysis of program effectiveness
    - Predictive modeling for at-risk participant identification
 
@@ -38,10 +36,8 @@ This project demonstrates automated ETL processes and real-time dashboard develo
    - Peer code review and testing frameworks
 
 ## Key Files
-- `etl/` – R and SQL automation scripts for data processing
 - `data/` – Synthetic datasets (privacy-compliant)
-- `dashboards/` – Power BI files and dashboard documentation
-- `validation/` – Data quality frameworks and testing scripts
+- `R files/' - Synthetic data, ETL pipeline, and interactive dashboard code
 - `outputs/` – Generated reports and visualizations
 - `README.md` – This documentation
 
@@ -54,13 +50,12 @@ This project demonstrates automated ETL processes and real-time dashboard develo
 ## Results & Impact
 - **Process Automation**: Eliminated manual data processing workflows
 - **Decision Support**: Real-time KPI tracking for program leadership
-- **Quality Improvement**: Maintained 97% data accuracy for federal reporting
 - **Scalability**: Framework adaptable to multiple program types and organizations
 
 ## How to Reproduce
 1. Clone this repository
 2. Install required R packages: `tidyverse`, `DBI`, `odbc`, `lubridate`
-3. Set up synthetic database using provided SQL scripts
+3. Set up synthetic database using provided R scripts
 4. Run ETL pipeline: `source("etl/main_pipeline.R")`
 5. Open Power BI dashboard files for visualization
 
