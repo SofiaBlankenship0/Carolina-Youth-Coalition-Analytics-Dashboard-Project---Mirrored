@@ -2,7 +2,7 @@
 *Automated Data Pipeline & Program Evaluation System*
 
 ## Data Privacy Notice
-Due to FERPA and privacy regulations governing youth data, I've created a portfolio demonstration using synthetic datasets that mirror the structure, complexity, and analytical challenges of real non-profit program data. This approach allows me to showcase my data engineering and analytics methodologies while maintaining strict confidentiality compliance.
+Due to FERPA and privacy regulations governing youth data, I've created a portfolio demonstration using synthetic datasets that mirror the structure, complexity, and analytical challenges of real non-profit program data. This approach allows me to showcase my quantitative data and analytics methodologies while maintaining strict confidentiality compliance.
 
 ## Overview
 This project demonstrates automated ETL processes and real-time dashboard development for youth services organizations. Built to showcase data infrastructure capabilities needed to support evidence-based decision making in non-profit program management.
