@@ -24,7 +24,7 @@ Synthetic datasets representing:
 
 ## Workflow & Methods
 1. **Data Integration**
-   - Automated ETL pipelines (R + SQL)  
+   - Automated ETL pipelines (R)  
    - Standardization & cleaning  
    - Real-time validation  
 
@@ -36,8 +36,6 @@ Synthetic datasets representing:
 ## Key Files
 - `app.R` – Main Shiny application  
 - `data/` – Synthetic datasets (privacy-compliant)  
-- `R/etl/` – Synthetic ETL pipeline scripts  
-- `outputs/` – Sample reports & screenshots  
 - `README.md` – Project documentation & live link  
 
 ## Technical Stack
